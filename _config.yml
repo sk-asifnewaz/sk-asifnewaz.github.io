@@ -23,7 +23,7 @@ repository               : "sk-asifnewaz/sk-asifnewaz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Pfp.jpg"
   name             : "Sk. Md. Asif Newaz"
   pronouns         : "He/Him"  
   bio              : "PhD applicant interested in ML | DL | Health-Informatics | Data-Analytics | LLM | Medical-AI"
