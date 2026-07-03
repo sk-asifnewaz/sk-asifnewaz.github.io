@@ -11,35 +11,40 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **B.Sc. in Computer Science and Engineering** | September 2021 -- April 2026
+  * American International University-Bangladesh (AIUB), Dhaka, Bangladesh
+  * CGPA: 3.89/4.00
+  * Relevant Coursework: Machine Learning (Python), Introduction to Data Science (R), Research Methodology, Artificial Intelligence and Expert System (Python), Computational Statistics and Probability (MATLAB).
+  * Thesis: "Binary Retrieval-Augmented Generation (BinaryRAG): Contrastive Learning and Multimodal Integration for Enhanced Monkeypox Detection"
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Intern** | April 2026 -- Present
+  * Elite Research Lab PLC. Queens, NY, USA (Remote)
+  * Supervisor: Md Kishor Morol
+  * Audited multiple datasets and identified criterion feature leakage in a high-visibility medical dataset on Kaggle (23.8K downloads).
+  * Contributed to an RAG pipeline and LLM fine-tuning project, focusing on retrieval optimization and domain adaptation.
+  * Conducted research in multimodal data integration strategies and data integrity validation protocols to ensure methodologically sound clinical prediction models.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* **Research Intern** | March 2025 -- June 2025
+  * Applied Intelligence and Informatics Lab (AIIL). Nottingham, United Kingdom (Remote)
+  * Supervisor: Dr. Md. Saef Ullah Miah
+  * Conducted in-depth literature reviews and developed/fine-tuned large language models, including Mistral-7B-Instruct-v0.3, for culturally aware sales negotiation systems in commercial contexts.
+  * Compiled datasets, performed model selection and comparison across architectures (Flan-T5, Gemma-2B, LLaMA-3B), and addressed technical implementation challenges in resource-constrained environments.
+  * Managed editorial works and indexing for ICONIP2024-CCIP conference papers via ProConf platform.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Language & Frameworks**: Python, R, PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers, CLIP, Sentence-Transformers, LangChain
+* **Deep Learning**: CNNs, EfficientNet, ResNet, Inception, Vision Transformers, Contrastive Learning, Multi-head Attention, Reranker
+* **Tools & Platforms**: Jupyter, Git, LaTeX, Grad-CAM, Docker, n8n, PgVector, SPSS, Linux, AWS/GCP (basic), LM Studio, Ollama, UnSloth
+
+Academic Achievements
+======
+* Dean's List Honors (all semesters)
+* Academic Scholarship for Excellence
+* Recipient of Magna Cum Laude (Silver Medal) for overall academic performance
+* Acquired two best paper awards at separate international conferences [TEHI 2024, ICIIR 2025]
 
 Publications
 ======
@@ -47,18 +52,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+References
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Dr. Md. Saef Ullah Miah**
+  * Research Lead, Applied Intelligence and Informatics Lab
+  * Director, FST, American International University-Bangladesh
+  * Email: saef@aiub.edu
+
+* **Md. Kishor Morol**
+  * CEO & Research Scientist, Elite Research Lab
+  * Email: kishor@elitelab.ai

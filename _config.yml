@@ -41,8 +41,8 @@ author:
   orcid            : "https://orcid.org/0009-0009-3246-9712"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           : ""
+  researchgate     : "https://www.researchgate.net/profile/Sk-Md-Asif-Newaz"
   scopus           : # URL
   zotero           : # URL
 
