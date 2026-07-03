@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a prospective PhD student and a final-year undergraduate in Computer Science and Engineering at the American International University-Bangladesh (AIUB). 
+I am a prospective PhD candidate and a fresh graduate in Computer Science and Engineering at the American International University-Bangladesh (AIUB). 
 
 My primary research interests span Machine Learning, Multimodal Integration, Health-Informatics, Data-Analytics, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Explainable AI, Medical Image Analysis, Contrastive Learning, Computer Vision, and Healthcare AI. I am passionate about creating methodologically sound and transparent AI solutions to tackle pressing real-world challenges, particularly in the medical domain.
 
