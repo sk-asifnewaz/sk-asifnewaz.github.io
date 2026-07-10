@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<p style="margin: 0 0 1.5rem;">
+<div style="text-align: right; margin: 0 0 1.5rem;">
   <a href="{{ base_path }}/files/Sk.%20Md.%20Asif%20Newaz%20Research%20CV%20RI.pdf" class="btn btn--primary" download>Download CV as PDF</a>
-</p>
+</div>
 
 Education
 ======
