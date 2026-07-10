@@ -14,7 +14,7 @@ author_profile: true
     - Major: Computer Science and Engineering
     - CGPA: 3.89/4.00
 
-    Achievements:
+    * Achievements:
         - Dean’s List Honors (all semesters)
         - Recipient of Magna Cum Laude (Silver Medal) for overall academic performance
         - Obtained Academic Scholarship for Excellence
@@ -25,7 +25,7 @@ author_profile: true
     - Major: Science
     - GPA: 5.00/5.00
 
-    Achievements:
+    * Achievements:
         - Recieved the Principal's Honor of Recognition for appearing among top 10% students
         - Obtained waiver for academic performance
 
@@ -33,6 +33,6 @@ author_profile: true
     - Institute: National Ideal School
     - Major: Science
     - GPA: 5.00/5.00
-
-    Achievements:
+    
+    * Achievements:
         - Obtained special waiver for financial needs
