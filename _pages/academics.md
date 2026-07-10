@@ -9,7 +9,7 @@ author_profile: true
 
 ## Full Academic History
 
-### Bachelor of Science (B.Sc)
+* **B.Sc. in Computer Science and Engineering** | September 2021 -- April 2026
 - Institute: American International University-Bangladesh
 - Major: Computer Science and Engineering
 - CGPA: 3.89/4.00
