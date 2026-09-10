@@ -12,7 +12,7 @@ Hands-on work in embedded systems, motion control, and digital fabrication. This
 ## 2.5D Mini CNC Plotter
 
 **Course:** Microprocessor and Embedded Systems (MAES)  
-**Role:** First author / presenter  
+**Role:** Core Contributor, First author 
 **Team:** Sk. Md. Asif Newaz, Tanvir Shaad, Safin Khan, MD. Shohanul Haque, and Sharon Bhoumick  
 
 This project is a compact, low-cost **2.5D CNC plotter** that draws 2D figures on a plane with a pen. It is built around an Arduino Uno R3 and an L293D motor-controller shield, with two salvaged DVD-drive stepper motors for the X/Y axes and a servo for pen lift (Z). A Java control program on a host computer sends motion commands over the Arduino serial port, either axis-by-axis or by tracing a G-code file of the target drawing.
