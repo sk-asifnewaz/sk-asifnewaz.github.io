@@ -13,6 +13,9 @@ main:
 
   - title: "Academics"
     url: /academics/
-    
+
+  - title: "Robotics & Automation"
+    url: /robotics/
+
   - title: "CV"
     url: /cv/
