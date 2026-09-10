@@ -3,9 +3,10 @@ title: "Data-Driven Diagnosis of Monkeypox: Insights from Machine Learning Model
 collection: publications
 category: conferences
 permalink: /publication/2024-monkeypox-diagnosis
-excerpt: 'Evaluated SVM, DT, RF, LR, XGBoost, LightGBM; 4--8% gain via targeted data cleaning. [Best Paper Award]'
+excerpt: 'Evaluated SVM, DT, RF, LR, XGBoost, LightGBM; 4--8% gain via targeted data cleaning.'
 date: 2024-01-04
 venue: 'TEHI 2024'
+award: 'Best Paper Award'
 paperurl: 'https://doi.org/10.1007/978-981-95-6013-4_12'
 ---
-Evaluated SVM, DT, RF, LR, XGBoost, LightGBM; 4--8% gain via targeted data cleaning. **[Best Paper Award]**
+Evaluated SVM, DT, RF, LR, XGBoost, LightGBM; 4--8% gain via targeted data cleaning.

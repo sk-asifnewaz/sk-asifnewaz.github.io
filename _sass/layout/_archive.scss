@@ -48,6 +48,12 @@
   }
 }
 
+.archive__item-award {
+  margin: 0 0 0.35em;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
 /* remove border*/
 .page__content {
 
