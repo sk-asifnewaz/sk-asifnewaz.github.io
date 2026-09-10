@@ -21,9 +21,13 @@ Work in conversational AI for commerce, workflow automation, embedded systems, a
 
 Pears International is a Bangladeshi Facebook-commerce retailer selling hair-care products (including Dexe Black/Brown Hair Shampoo) through Messenger. Lead conversion used to depend on manual chatting: inquiries arrive at odd hours, each thread needs product knowledge plus price negotiation in Bangla, and that does not scale when ads spike.
 
-I built an autonomous Messenger sales agent on self-hosted **n8n**, with LLMs via **OpenRouter**. The bot greets customers, answers product FAQs, bargains within encoded price rules, and confirms orders — in natural Bangla, including **voice notes** transcribed with Groq Whisper (`whisper-large-v3-turbo`). Confirmed orders are forwarded to an admin **Telegram** bot for fulfillment.
+I built an autonomous Messenger sales agent on **n8n running locally in Docker**, with public webhook forwarding through **ngrok** and inference on OpenRouter’s free-tier **Owl Alpha** model. The bot greets customers, answers product FAQs, bargains within encoded price rules, and confirms orders — in natural Bangla, including **voice notes** transcribed with Groq Whisper (`whisper-large-v3-turbo`). Confirmed orders are forwarded to an admin **Telegram** bot for fulfillment.
 
-<p><a href="https://pearsintl.com/">pearsintl.com</a> &nbsp;|&nbsp; <a href="https://www.facebook.com/pearsintl">Facebook page</a> &nbsp;|&nbsp; <a href="{{ base_path }}/files/pears-international-ai-automation-documentation.docx">Download the technical documentation</a></p>
+<div class="notice--info" markdown="1">
+**Entirely it was a free self-hosted solution.** The stack ran on a local machine: Dockerized n8n, ngrok for inbound Facebook requests, and Owl Alpha on OpenRouter’s free tier — no paid hosting and no paid LLM plan.
+</div>
+
+<p><a href="https://github.com/sk-asifnewaz/Pears-Bargain-Bot">GitHub repository</a> &nbsp;|&nbsp; <a href="{{ base_path }}/files/pears-international-ai-automation-documentation.docx">Download the technical documentation</a></p>
 
 ### How it works
 
@@ -40,8 +44,9 @@ The bargaining agent is constrained by business rules in the system prompt: a ha
 
 ### Stack
 
-* n8n (self-hosted, v2.23.2) — workflow orchestration
-* OpenRouter — multi-model LLM routing
+* n8n (self-hosted in local Docker, v2.23.2) — workflow orchestration
+* ngrok — public URL for Facebook webhook forwarding to the local instance
+* OpenRouter **Owl Alpha** (free tier) — LLM inference
 * Groq Whisper large-v3-turbo — Bangla voice transcription
 * PostgreSQL (`n8n_chat_histories`) — per-customer memory
 * Facebook Messenger Platform — inbound webhook and outbound replies
