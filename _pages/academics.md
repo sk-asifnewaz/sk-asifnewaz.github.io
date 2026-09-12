@@ -39,10 +39,29 @@ author_profile: true
 
 ## Language Proficiency
 
-* **IELTS Academic** | 28 August 2026
-    - Overall band: 7.5 (CEFR C1)
-    - Listening: 7.5
-    - Reading: 8.5
-    - Writing: 7.5
-    - Speaking: 6.5
-    - [Download Test Report Form (PDF)]({{ base_path }}/files/ielts-academic-etrf.pdf)
+**IELTS Academic** | 28 August 2026
+
+<table class="ielts-scores">
+  <thead>
+    <tr>
+      <th>Overall</th>
+      <th>CEFR</th>
+      <th>Listening</th>
+      <th>Reading</th>
+      <th>Writing</th>
+      <th>Speaking</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7.5</td>
+      <td>C1</td>
+      <td>8.5</td>
+      <td>7.5</td>
+      <td>6.5</td>
+      <td>7.5</td>
+    </tr>
+  </tbody>
+</table>
+
+[Download Test Report Form (PDF)]({{ base_path }}/files/ielts-academic-etrf.pdf)

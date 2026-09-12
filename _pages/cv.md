@@ -49,7 +49,7 @@ Academic Achievements
 * Academic Scholarship for Excellence
 * Recipient of Magna Cum Laude (Silver Medal) for overall academic performance
 * Acquired two best paper awards at separate international conferences [TEHI 2024, ICIIR 2025]
-* IELTS Academic: Overall 7.5 (Listening 7.5, Reading 8.5, Writing 7.5, Speaking 6.5; CEFR C1) | August 2026
+* IELTS Academic: Overall 7.5 (Listening 8.5, Reading 7.5, Writing 6.5, Speaking 7.5; CEFR C1) | August 2026
 
 Publications
 ======

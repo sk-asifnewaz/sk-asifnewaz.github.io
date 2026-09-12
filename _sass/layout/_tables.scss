@@ -36,3 +36,27 @@ td {
 tr, td, th {
   vertical-align: middle;
 }
+
+.ielts-scores {
+  width: 100%;
+  max-width: 36em;
+  margin: 0.75rem 0 1rem;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  th,
+  td {
+    text-align: center;
+    padding: 0.65em 0.4em;
+  }
+
+  thead th {
+    background-color: var(--global-border-color);
+  }
+
+  tbody td {
+    background-color: color-mix(in srgb, var(--global-text-color) 10%, var(--global-bg-color));
+    font-weight: 600;
+    border-bottom: none;
+  }
+}
