@@ -37,26 +37,33 @@ tr, td, th {
   vertical-align: middle;
 }
 
+.ielts-scores-wrap {
+  overflow-x: auto;
+  margin: 0.75rem 0 1rem;
+}
+
 .ielts-scores {
   width: 100%;
-  max-width: 36em;
-  margin: 0.75rem 0 1rem;
+  margin: 0;
   border-radius: $border-radius;
   overflow: hidden;
+  white-space: nowrap;
 
   th,
   td {
     text-align: center;
-    padding: 0.65em 0.4em;
+    padding: 0.65em 0.7em;
   }
 
-  thead th {
+  th {
     background-color: var(--global-border-color);
+    font-weight: 600;
   }
 
-  tbody td {
+  td {
     background-color: color-mix(in srgb, var(--global-text-color) 10%, var(--global-bg-color));
     font-weight: 600;
     border-bottom: none;
   }
 }
+
