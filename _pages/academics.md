@@ -36,3 +36,13 @@ author_profile: true
     
     * Achievements:
         - Obtained special waiver for financial needs
+
+## Language Proficiency
+
+* **IELTS Academic** | 28 August 2026
+    - Overall band: 7.5 (CEFR C1)
+    - Listening: 7.5
+    - Reading: 8.5
+    - Writing: 7.5
+    - Speaking: 6.5
+    - [Download Test Report Form (PDF)]({{ base_path }}/files/ielts-academic-etrf.pdf)
