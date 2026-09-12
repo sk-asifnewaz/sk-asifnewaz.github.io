@@ -16,22 +16,22 @@ author_profile: true
 <table style="margin: 0 auto; border-collapse: collapse; text-align: center;">
   <thead>
     <tr>
-      <th>Overall</th>
-      <th>CEFR</th>
-      <th>Listening</th>
-      <th>Reading</th>
-      <th>Writing</th>
-      <th>Speaking</th>
+      <th style="text-align: center; color: #000; font-weight: 700;">Overall</th>
+      <th style="text-align: center; color: #000; font-weight: 700;">CEFR</th>
+      <th style="text-align: center; color: #000; font-weight: 700;">Listening</th>
+      <th style="text-align: center; color: #000; font-weight: 700;">Reading</th>
+      <th style="text-align: center; color: #000; font-weight: 700;">Writing</th>
+      <th style="text-align: center; color: #000; font-weight: 700;">Speaking</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>7.5</td>
-      <td>C1</td>
-      <td>8.5</td>
-      <td>7.5</td>
-      <td>6.5</td>
-      <td>7.5</td>
+      <td style="text-align: center; color: #000; font-weight: 700;">7.5</td>
+      <td style="text-align: center; color: #000; font-weight: 700;">C1</td>
+      <td style="text-align: center; color: #000; font-weight: 700;">8.5</td>
+      <td style="text-align: center; color: #000; font-weight: 700;">7.5</td>
+      <td style="text-align: center; color: #000; font-weight: 700;">6.5</td>
+      <td style="text-align: center; color: #000; font-weight: 700;">7.5</td>
     </tr>
   </tbody>
 </table>
