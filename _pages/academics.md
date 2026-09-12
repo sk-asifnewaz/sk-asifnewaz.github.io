@@ -12,9 +12,30 @@ author_profile: true
 **IELTS Academic** | 28 August 2026
 
 
-| Overall |   CEFR  | Listening | Reading | Writing | Speaking |
-| ------- | ------- | --------- | ------- | ------- | -------- |
-| 7.5     |    C1   |    8.5    |   7.5   |   6.5   |    7.5   |
+<div style="display: flex; justify-content: center;">
+<table style="margin: 0 auto; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr>
+      <th>Overall</th>
+      <th>CEFR</th>
+      <th>Listening</th>
+      <th>Reading</th>
+      <th>Writing</th>
+      <th>Speaking</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7.5</td>
+      <td>C1</td>
+      <td>8.5</td>
+      <td>7.5</td>
+      <td>6.5</td>
+      <td>7.5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 [Download Test Report Form (PDF)]({{ base_path }}/files/ielts-academic-etrf.pdf)
