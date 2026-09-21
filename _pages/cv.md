@@ -23,12 +23,12 @@ Education
 
 Research Experience
 ======
-* **Research Intern** | April 2026 -- Present
+* **Research Assistant** | April 2026 -- Present
   * Elite Research Lab PLC. Queens, NY, USA (Remote)
   * Supervisor: Md Kishor Morol
-  * Audited multiple datasets and identified criterion feature leakage in a high-visibility medical dataset on Kaggle (23.8K downloads).
-  * Contributed to an RAG pipeline and LLM fine-tuning project, focusing on retrieval optimization and domain adaptation.
-  * Conducted research in multimodal data integration strategies and data integrity validation protocols to ensure methodologically sound clinical prediction models.
+  * Led a government-scale RAG tutoring system over 132 NCTB textbooks in Bengali, Arabic, and English, auditing and re-converting the complete corpus from source PDFs and evaluating generative versus classical OCR approaches.
+  * Conducted a comprehensive audit of publicly available PCOS datasets for data quality, leakage, duplication, and shortcut learning; identified criterion feature leakage in a high-visibility Kaggle dataset with 23.8K downloads and contributed to a verification atlas.
+  * Developed a multimodal deep-learning pipeline for PCOS detection by integrating ultrasound images with patient-matched clinical data, focusing on robust fusion and real-world validation.
 
 * **Research Intern** | March 2025 -- June 2025
   * Applied Intelligence and Informatics Lab (AIIL). Nottingham, United Kingdom (Remote)

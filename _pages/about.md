@@ -11,7 +11,7 @@ I am a prospective PhD candidate and a fresh graduate in Computer Science and En
 
 My primary research interests span Machine Learning, Multimodal Integration, Health-Informatics, Data-Analytics, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Explainable AI, Medical Image Analysis, Contrastive Learning, Computer Vision, and Healthcare AI. I am passionate about creating methodologically sound and transparent AI solutions to tackle pressing real-world challenges, particularly in the medical domain.
 
-I currently work as a Research Intern at Elite Research Lab PLC. (New York, USA - Remote), where I am focusing on RAG pipelines, LLM fine-tuning, retrieval optimization, and domain adaptation. Previously, I interned at the Applied Intelligence and Informatics Lab (AIIL, Nottingham, UK - Remote), leading fine-tuning efforts on models like Mistral-7B-Instruct-v0.3.
+I currently work as a Research Assistant at Elite Research Lab PLC. (New York, USA - Remote), where I lead work on a government-scale NCTB tutoring RAG system, PCOS dataset quality and integrity audits, and a patient-matched multimodal PCOS detection pipeline. Previously, I interned at the Applied Intelligence and Informatics Lab (AIIL, Nottingham, UK - Remote), leading fine-tuning efforts on models like Mistral-7B-Instruct-v0.3.
 
 My undergraduate thesis, titled "Binary Retrieval-Augmented Generation (BinaryRAG): Contrastive Learning and Multimodal Integration for Enhanced Monkeypox Detection," attempts to build a novel framework combining CLIP visual embeddings and SentenceTransformer clinical metadata. 
 
