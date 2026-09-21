@@ -13,7 +13,7 @@ Selected software engineering work spanning business systems, full-stack web app
 
 ### Part-time Project Developer — Pears International Ltd.
 
-**October 2025 – February 2026 · Gulshan-1, Dhaka, Bangladesh**
+**October 2025 – Present · Gulshan-1, Dhaka, Bangladesh**
 
 - Implemented the organization-wide [Nano POS](https://pos.pearsintl.com) system, including PHP software customization, web-server hosting, and hardware setup for daily sales operations.
 - Trained sales and management teams to use the POS platform.
