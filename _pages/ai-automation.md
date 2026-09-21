@@ -21,19 +21,19 @@ Work in conversational AI for commerce, workflow automation, embedded systems, a
 
 Pears International is a Bangladeshi Facebook-commerce retailer selling hair-care products (including Dexe Black/Brown Hair Shampoo) through Messenger. Lead conversion used to depend on manual chatting: inquiries arrive at odd hours, each thread needs product knowledge plus price negotiation in Bangla, and that does not scale when ads spike.
 
-I built an autonomous Messenger sales agent on **n8n running locally in Docker**, with public webhook forwarding through **ngrok** and inference on OpenRouter’s free-tier **Owl Alpha** model. The bot greets customers, answers product FAQs, bargains within encoded price rules, and confirms orders — in natural Bangla, including **voice notes** transcribed with Groq Whisper (`whisper-large-v3-turbo`). Confirmed orders are forwarded to an admin **Telegram** bot for fulfillment.
+I built an AI-powered Messenger sales automation system on **n8n running locally in Docker (v2.23.2)**, with public webhook forwarding through **ngrok** and multi-model inference through **OpenRouter**. The bot greets customers, answers product FAQs, bargains within encoded price rules, and confirms orders — in natural Bangla, including **voice notes** transcribed with Groq Whisper (`whisper-large-v3-turbo`). Confirmed orders are forwarded to an admin **Telegram** bot for fulfillment.
 
 <div class="notice--info" markdown="1">
-**Entirely it was a free self-hosted solution.** The stack ran on a local machine: Dockerized n8n, ngrok for inbound Facebook requests, and Owl Alpha on OpenRouter’s free tier — no paid hosting and no paid LLM plan.
+**Entirely it was a free self-hosted solution.** The stack ran on a local machine: Dockerized n8n, ngrok for inbound Facebook requests, and free-tier models through OpenRouter — no paid hosting and no paid LLM plan.
 </div>
 
-<p><a href="https://github.com/sk-asifnewaz/Pears-Bargain-Bot">GitHub repository</a> &nbsp;|&nbsp; <a href="{{ base_path }}/files/pears-international-ai-automation-documentation.docx">Download the technical documentation</a></p>
+<p><a href="https://github.com/sk-asifnewaz/Pears-Bargain-Bot">GitHub repository</a> &nbsp;|&nbsp; <a href="{{ base_path }}/files/pears-international-ai-automation-documentation.pdf">Download the technical documentation (PDF)</a></p>
 
 ### How it works
 
 Each incoming Messenger event is acknowledged immediately (HTTP 200) so Facebook does not retry aggressively. A short-lived message-ID gate then drops duplicate deliveries. Echo events from manual admin replies are filtered out so the bot does not talk over a human.
 
-Text goes straight into the AI pipeline. Voice attachments are downloaded, transcribed in Bengali, and merged onto the same `messageText` field so the rest of the flow is voice-agnostic. The customer is looked up via the Graph API and PostgreSQL chat memory (keyed by Messenger PSID). An intent classifier sends the turn to one of two LangChain agents that share that memory:
+Text goes straight into the AI pipeline. Voice attachments are downloaded, transcribed in Bengali, and merged onto the same `messageText` field so the rest of the flow is voice-agnostic. The customer is looked up via the Graph API and PostgreSQL chat memory (`n8n_chat_histories`, keyed by Messenger PSID). An intent classifier sends the turn to one of two LangChain agents that share that memory:
 
 * **FAQ agent** — ingredients, usage, suitability, color variants, and service questions
 * **Bargaining agent** — list price, discounts, delivery, and order confirmation
@@ -42,11 +42,13 @@ Replies go out through the Messenger Send API. When the customer agrees and give
 
 The bargaining agent is constrained by business rules in the system prompt: a hard price floor, a small discount ladder over at most two rounds, free delivery as a last concession (60 BDT inside Dhaka, 120 BDT outside), a defined close after further haggling, and no invented answers for unknown products. Bulk orders (3+ units) are escalated for a human callback.
 
+Voice messages follow a dedicated path: the audio attachment is downloaded with n8n's native HTTP helper, converted to n8n binary data, transcribed by Groq Whisper with `language=bn`, and merged back into `messageText`. This keeps voice and text conversations on the same FAQ, bargaining, and order pipeline.
+
 ### Stack
 
 * n8n (self-hosted in local Docker, v2.23.2) — workflow orchestration
 * ngrok — public URL for Facebook webhook forwarding to the local instance
-* OpenRouter **Owl Alpha** (free tier) — LLM inference
+* OpenRouter (multi-model routing; free-tier models during deployment) — LLM inference
 * Groq Whisper large-v3-turbo — Bangla voice transcription
 * PostgreSQL (`n8n_chat_histories`) — per-customer memory
 * Facebook Messenger Platform — inbound webhook and outbound replies
@@ -54,9 +56,9 @@ The bargaining agent is constrained by business rules in the system prompt: a ha
 
 ### Outcomes (June 2026)
 
-During the live month the system handled **339** Messenger conversations, **2,470** API requests, and **9.88 million** LLM tokens. **26** conversations became confirmed orders — a **7.67%** conversation-to-order rate with little human intervention except edge cases.
+During the live month the system handled **339** Messenger conversations, **2,470** API requests, and **9.88 million** LLM tokens (about **29,145 tokens per conversation**). **26** conversations became confirmed orders, a **7.67%** conversation-to-order rate. Of those orders, **8 were closed fully autonomously by the bot** and **19 required human assistance** at some stage of negotiation.
 
-Operational issues that were fixed in production included Facebook webhook retries (duplicate replies), OpenRouter response caching that reused stale completions across customers, n8n Code-node binary handling for Groq audio, and pausing the bot when an admin replied manually.
+Operational issues that were fixed in production included Facebook webhook retries (duplicate replies), OpenRouter response caching that reused stale completions across customers, n8n Code-node binary handling for Groq audio, and pausing the bot when an admin replied manually. The final workflow acknowledges webhooks immediately, deduplicates message IDs with a 60-second TTL, disables OpenRouter caching with `X-OpenRouter-Cache: false`, and detects Messenger echo events so the bot does not answer alongside an admin.
 
 ## 2.5D Mini CNC Plotter
 
