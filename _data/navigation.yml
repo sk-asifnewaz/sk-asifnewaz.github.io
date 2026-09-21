@@ -14,6 +14,9 @@ main:
   - title: "Academics"
     url: /academics/
 
+  - title: "CV"
+    url: /cv/
+
   - title: "Ongoing Research Works"
     url: /ongoing-research/
 
@@ -22,6 +25,3 @@ main:
 
   - title: "Software Projects"
     url: /software-projects/
-
-  - title: "CV"
-    url: /cv/
