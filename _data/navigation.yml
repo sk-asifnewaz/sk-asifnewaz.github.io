@@ -17,5 +17,8 @@ main:
   - title: "AI Automation and Robotics"
     url: /ai-automation/
 
+  - title: "Software Projects"
+    url: /software-projects/
+
   - title: "CV"
     url: /cv/
