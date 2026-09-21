@@ -56,7 +56,7 @@ Voice messages follow a dedicated path: the audio attachment is downloaded with 
 
 ### Outcomes (June 2026)
 
-During the live month the system handled **339** Messenger conversations, **2,470** API requests, and **9.88 million** LLM tokens (about **29,145 tokens per conversation**). **26** conversations became confirmed orders, a **7.67%** conversation-to-order rate. Of those orders, **8 were closed fully autonomously by the bot** and **19 required human assistance** at some stage of negotiation.
+During the live month the system handled **339** Messenger conversations, **2,470** API requests, and **9.88 million** LLM tokens (about **29,145 tokens per conversation**). **26** conversations became confirmed orders, a **7.67%** conversation-to-order rate. Of those orders, **8 were closed fully autonomously by the bot** and **18 required human assistance** at some stage of negotiation.
 
 Operational issues that were fixed in production included Facebook webhook retries (duplicate replies), OpenRouter response caching that reused stale completions across customers, n8n Code-node binary handling for Groq audio, and pausing the bot when an admin replied manually. The final workflow acknowledges webhooks immediately, deduplicates message IDs with a 60-second TTL, disables OpenRouter caching with `X-OpenRouter-Cache: false`, and detects Messenger echo events so the bot does not answer alongside an admin.
 
