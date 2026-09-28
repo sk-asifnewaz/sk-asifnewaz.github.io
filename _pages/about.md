@@ -9,10 +9,10 @@ redirect_from:
 
 I am a prospective PhD candidate and a fresh graduate in Computer Science and Engineering at the American International University-Bangladesh (AIUB). 
 
-My primary research interests span Machine Learning, Multimodal Integration, Health-Informatics, Data-Analytics, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Explainable AI, Medical Image Analysis, Contrastive Learning, Computer Vision, and Healthcare AI. I am passionate about creating methodologically sound and transparent AI solutions to tackle pressing real-world challenges, particularly in the medical domain.
+My primary research interests span Machine Learning, Multi-Agent Systems, Multimodal Integration, Agentic AI, Health-Informatics, Big Data Analytics, Large Language Models (LLM), Retrieval-Augmented Generation (RAG), Explainable AI, Medical Image Analysis, Contrastive Learning, Computer Vision, and Healthcare AI. I am passionate about creating methodologically sound and transparent AI solutions to tackle pressing real-world challenges, particularly in the medical domain.
 
 I currently work as a Research Assistant at Elite Research Lab PLC. (New York, USA - Remote), where I lead work on a government-scale NCTB tutoring RAG system, PCOS dataset quality and integrity audits, and a patient-matched multimodal PCOS detection pipeline. Previously, I interned at the Applied Intelligence and Informatics Lab (AIIL, Nottingham, UK - Remote), leading fine-tuning efforts on models like Mistral-7B-Instruct-v0.3.
 
-My undergraduate thesis, titled "Binary Retrieval-Augmented Generation (BinaryRAG): Contrastive Learning and Multimodal Integration for Enhanced Monkeypox Detection," attempts to build a novel framework combining CLIP visual embeddings and SentenceTransformer clinical metadata. 
+My undergraduate thesis, titled "When Does Multimodal Fusion Help? Gated Contrastive Retrieval for Skin-Lesion Screening and Application to Monkeypox," develops a gated contrastive retrieval framework that fuses CLIP image embeddings with clinical metadata, achieving a 5.1% Precision@5 improvement over image-only retrieval on patient-linked clinical data. 
 
 I have authored several research papers and won two best paper awards across international conferences (TEHI 2024, ICIIR 2025). I am driven to contribute to impactful research at the intersection of Artificial Intelligence and Healthcare.

@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: right; margin: 0 0 1.5rem;">
-  <a href="{{ base_path }}/files/Sk.%20Md.%20Asif%20Newaz%20Research%20CV%20RI.pdf" class="btn btn--primary" download>Download CV as PDF</a>
+  <a href="{{ base_path }}/files/Sk.%20Md.%20Asif%20Newaz%20Research%20CV.pdf" class="btn btn--primary" download>Download CV as PDF</a>
 </div>
 
 Education
@@ -19,7 +19,7 @@ Education
   * American International University-Bangladesh (AIUB), Dhaka, Bangladesh
   * CGPA: 3.89/4.00
   * Relevant Coursework: Machine Learning (Python), Introduction to Data Science (R), Research Methodology, Artificial Intelligence and Expert System (Python), Computational Statistics and Probability (MATLAB).
-  * Thesis: "Binary Retrieval-Augmented Generation (BinaryRAG): Contrastive Learning and Multimodal Integration for Enhanced Monkeypox Detection"
+  * Thesis: "When Does Multimodal Fusion Help? Gated Contrastive Retrieval for Skin-Lesion Screening and Application to Monkeypox"
 
 Research Experience
 ======

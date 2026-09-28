@@ -85,11 +85,11 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Journal Submission (Thesis -- Proposed for submission)'    
+    title: 'Journal Submission (Thesis -- Waiting for funding approval)'    
   conferences:
     title: 'International Conference Papers (All Accepted/Published)'
-  underreview:
-    title: 'Conference Papers (Under Review)'
+  accepted:
+    title: 'Conference Papers (Accepted)'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
